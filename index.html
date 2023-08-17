@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web3Bridge Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <script src=""></script>
+</head>
+
+<body>
+
+
+  <!-- start quiz button -->
+  <div class="start_btn">
+    <button>Start Quiz</button>
+  </div>
+
+  <!-- info box -->
+  <div class="info_box">
+    <div class="info_title">
+      <span>Some rules of this quiz</span>
+    </div>
+    <div class="info_list">
+      <div class="info">1. You will only have <span>15 seconds</span> 15s per question</div>
+      <div class="info">2. Once you select your answer, you cant reselect</div>
+      <div class="info">3. You cant select any option onec time is off</div>
+      <div class="info">4. You cant exit from the quiz once playing</div>
+      <div class="info">5. You will get point on basis of your correct answer</div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit Quiz</button>
+      <button class="restart">Continue</button>
+    </div>
+  </div>
+
+  <!-- Quiz box -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Web3Bridge Quiz App</div>
+      <div class="timer">
+        <div class="time_text">Time left</div>
+        <div class="time_sec">15</div>
+      </div>
+    </header>
+    <section>
+      <div class="que_text">
+        <!-- <span>What does HTML stand for?</span> -->
+      </div>
+      <div class="option_list">
+        <!-- <div class="option">
+          <span>Hyper Text Preprocessor</span>
+          <div class="icon tick"><i class="fas fa-check"></i></div>
+        </div>
+        <div class="option">
+          <span>Hyper Text Markup Language</span>
+          <div class="icon cross"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="option">
+          <span>Hyper Text Multiple Language</span>
+        </div>
+        <div class="option">
+          <span>Hyper Tool Multi Language</span>
+        </div> -->
+      </div>
+    </section>
+    <!-- quiz box footer -->
+    <footer>
+      <div class="total_que">
+        <!-- <span>
+          <p>2</p>Of <p>5</p>Questions
+        </span> -->
+      </div>
+      <button class="next_btn">Next Question</button>
+    </footer>
+  </div>
+  <!-- result box -->
+  <div class="result_box">
+    <div class="icon">
+      <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">You 've completed the quiz!</div>
+    <div class="score_test">
+      <span>and sorry, you got only<p> 2 </p> out of <p>5</p></span>
+    </div>
+    <div class="buttons">
+      <button class="restart">Replay Quiz</button>
+      <button class="quit">Quit Quiz</button>
+    </div>
+  </div>
+  <script src="/js/scripts.js"></script>
+  <script src="/js/question.js"></script>
+</body>
+
+</html>
+
